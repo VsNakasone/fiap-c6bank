@@ -10,7 +10,14 @@ color: #f8f8f8;
 font-family: sans-serif;
 background-color: #242424;
 width: 100%;
-hegth: 450px;
+padding-bottom:20px;
+h2, h3{
+  margin: 0;
+  font-weight: 500;
+}
+h2{
+  margin-top:10%;
+}
 `;
 const AvatarContainer = styled.div`
 display:flex;
@@ -23,7 +30,7 @@ export default function Profile() {
   return (
     <ProfileContainer>
         <AvatarContainer>
-        <Avatar alt="Vanessa Nakasone" src="https://avatars.githubusercontent.com/u/11314585?v=4" sx={{width:200, height:200}}/>
+        <Avatar alt="Vanessa Nakasone" src="https://avatars.githubusercontent.com/u/101295448?s=400&v=4" sx={{width:200, height:200}}/>
             <h2>Vanessa Nakasone</h2>
             <h3>Software Engineer</h3>
             </AvatarContainer>
